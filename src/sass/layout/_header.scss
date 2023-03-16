@@ -1,20 +1,9 @@
-// .header {
-//   font-family: 'Inter', sans-serif;
-//   font-style: normal;
-//   font-weight: 400;
-//   font-size: 16px;
-//   line-height: calc(19 / 16);
-//   color: #fcfcfb;
-//   background: linear-gradient(336.93deg, #2d2a22 5.7%, #7e6d53 108.98%);
-// }
+
 .header {
   position: fixed;
   z-index: 2;
   width: 100%;
   margin-top: -80px;
-  // @media screen and (min-width:768px) {
-  //     margin-top: -100px;
-  // }
 
   text-align: center;
   font-family: $secondary-font;
