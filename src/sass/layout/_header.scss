@@ -1,10 +1,8 @@
-
 .header {
   position: fixed;
   z-index: 2;
   width: 100%;
   margin-top: -80px;
-
   text-align: center;
   font-family: $secondary-font;
   font-style: normal;
@@ -12,7 +10,7 @@
   font-size: 16px;
   line-height: calc(19 / 16);
   color: $second-font-color;
-  background: linear-gradient(336.93deg, #2D2A22 5.7%, #7E6D53 108.98%);
+  background: linear-gradient(336.93deg, #2d2a22 5.7%, #7e6d53 108.98%);
 }
 .header__container {
   display: flex;
@@ -71,7 +69,6 @@
     margin-right: 32px;
   }
 }
-
 @media screen and (min-width: $desktop) {
   .header__button {
     display: block;
@@ -84,12 +81,12 @@
     line-height: calc(24 / 16);
     background-color: $dark-font;
     color: #fcfcfb;
-    transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1), 
-            background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);                
+    transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
-        background-color: $second-font-color;
-        color: $dark-font;
+      background-color: $second-font-color;
+      color: $dark-font;
     }
   }
 }
